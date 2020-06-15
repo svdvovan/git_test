@@ -1,5 +1,7 @@
 <?php echo $header; ?>
 11111111111111111
+<?php include_once "new.php"; ?>
+<?php hello(); ?>
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
